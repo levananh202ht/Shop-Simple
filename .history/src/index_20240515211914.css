@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+/* .title:hover {
+    /* overflow: visible; */
+    text-overflow: ellipsis;
+    overflow: visible;
+} */
